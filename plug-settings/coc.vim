@@ -173,6 +173,8 @@ let g:coc_explorer_global_presets = {
 \   },
 \ }
 
+let g:coc_global_extensions = ['coc-explorer', 'coc-json', 'coc-snippets', 'coc-vimlsp', 'coc-emmet', 'coc-html', 'coc-css', 'coc-tsserver', 'coc-clangd', 'coc-pyright']
+
 " Use preset argument to open it
 nnoremap <space>ee :CocCommand explorer<CR>
 nnoremap <space>ed :CocCommand explorer --preset .vim<CR>

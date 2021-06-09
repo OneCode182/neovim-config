@@ -2,24 +2,23 @@
     "coc.preferences.formatOnSaveFiletypes": [
         "json",
         "markdown",
-        "html",
-        "css",
+        "python",
         "javascript",
         "typescript",
-        "python",
         "xml",
-        "java"
+        "rust"
     ],
-    "python.jediEnabled": false,
-    "python.formatting.provider": "autopep8",
-    "python.autoComplete.extraPaths": [
-        "libqtile"
-    ],
+    "python.formatting.provider": "black",
+    "python.formatting.blackPath": "black",
     "json.format.enable": true,
     "xml.format.enabled": true,
     "xml.format.joinContentLines": true,
     "xml.format.splitAttributes": true,
     "explorer.width": 30,
     "explorer.icon.enableNerdfont": true,
-    "explorer.previewAction.onHover": false
+    "explorer.previewAction.onHover": false,
+    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingEmptyBraces": true,
+    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
+    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": true,
+    "javascript.format.semicolons": "insert"
 }

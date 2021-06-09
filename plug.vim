@@ -4,17 +4,16 @@ call plug#begin('~/.local/share/nvim/plugged')
 Plug 'morhetz/gruvbox'
 Plug 'ayu-theme/ayu-vim'
 Plug 'joshdick/onedark.vim'
-Plug 'tomasr/molokai'
 Plug 'kjwon15/vim-transparent'
-Plug 'pineapplegiant/spaceduck', { 'branch': 'main' }
 Plug 'AlessandroYorba/Despacio'
 Plug 'sonph/onehalf', { 'rtp': 'vim' }
 Plug 'mhartington/oceanic-next'
+Plug 'wojciechkepka/bogster'
 
 "visual
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
-"Plug 'ryanoasis/vim-devicons'
+Plug 'ryanoasis/vim-devicons'
 Plug 'lilydjwg/colorizer'
 Plug 'leafgarland/typescript-vim'
 Plug 'uiiaoo/java-syntax.vim'
@@ -30,8 +29,6 @@ Plug 'preservim/tagbar'
 Plug 'sheerun/vim-polyglot'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
-"Plug 'scrooloose/nerdtree'
-"Plug 'christoomey/vim-tmux-navigator'
 Plug 'KabbAmine/vCoolor.vim'
 Plug 'easymotion/vim-easymotion'
 Plug 'rust-lang/rust.vim'
@@ -49,5 +46,6 @@ Plug 'sirver/ultisnips'
 Plug 'jiangmiao/auto-pairs'
 Plug 'mattn/emmet-vim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'rhysd/vim-clang-format'
 
 call plug#end()
