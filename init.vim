@@ -23,7 +23,4 @@ source ~/.config/nvim/plug-settings/undotree.vim
 source ~/.config/nvim/plug-settings/vim-dev-icons.vim
 source ~/.config/nvim/plug-settings/vimspector.vim
 source ~/.config/nvim/plug-settings/vim-clang-format.vim
-<<<<<<< HEAD
-=======
 source ~/.config/nvim/plug-settings/vim-go.vim
->>>>>>> c568f42 (adding go plugins)

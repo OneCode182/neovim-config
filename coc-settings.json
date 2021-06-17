@@ -3,11 +3,8 @@
         "json",
         "markdown",
         "python",
-<<<<<<< HEAD
         "javascript",
         "typescript",
-=======
->>>>>>> c568f42 (adding go plugins)
         "xml",
         "rust"
     ],

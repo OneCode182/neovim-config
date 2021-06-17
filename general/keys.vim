@@ -20,22 +20,16 @@ nnoremap <silent> <down> :resize -5<CR>
 nnoremap <leader>w :w<CR>
 
 "you split a terminal with a size of 15
-<<<<<<< HEAD
 vnoremap <c-t> :split<CR>:ter<CR>:resize 15<CR>
 nnoremap <c-t> :split<CR>:ter<CR>:resize 15<CR>
-=======
 vnoremap <C-\> :split<CR>:ter<CR>:resize 15<CR>
 nnoremap <C-\> :split<CR>:ter<CR>:resize 15<CR>
->>>>>>> c568f42 (adding go plugins)
 
 " Move to the next buffer
 " Move to the prevoius buffer
 nnoremap <tab> :bnext<CR>
-<<<<<<< HEAD
 nnoremap <s-tab> :bprevious<CR>
-=======
 nnoremap <S-tab> :bprevious<CR>
->>>>>>> c568f42 (adding go plugins)
 
 " Close the current buffer
 "create a new tab

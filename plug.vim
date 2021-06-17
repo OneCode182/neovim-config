@@ -37,10 +37,7 @@ Plug 'vim-python/python-syntax'
 Plug 'mbbill/undotree'
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
 Plug 'puremourning/vimspector'
-<<<<<<< HEAD
-=======
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
->>>>>>> c568f42 (adding go plugins)
 
 "code modification
 Plug 'scrooloose/nerdcommenter'
